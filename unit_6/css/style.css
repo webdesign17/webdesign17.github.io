@@ -8,6 +8,13 @@ nav {
 	border: 1px black solid;
 	padding: 20px;
 }
+
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
 aside {
 	background-color: #FFC675;
 	border: 1px black solid;
