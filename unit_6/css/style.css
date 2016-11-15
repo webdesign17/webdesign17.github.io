@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Karma|Open+Sans|Playball');
-  
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {font-family: 'Karma', serif;
 	
 }
@@ -27,20 +26,33 @@ header {
 	border: 1px black solid;
 	padding: 20px;
 }
-
+header div {
+	float:left;
+}
+header img {
+	float:right;
+}
  nav {
 	background-color: #F0E7DF;
 	border: 1px black solid;
 	padding: 20px;
 }
-
-#two_column {
+nav a {
+	color:#222;
+	float:left;
+	padding:1em;
+	text-align:center;
+	text-decoration:none;
+	width:16.66%;
+	text-transform: uppercase;
+}
+section {
     background-color: #F0E7DF;
     border: 1px black solid;
     padding: 20px;
 }
 
-#left {
+.left {
     background-color: #FAF7F5;
     border: 1px black solid;
     padding: 20px;
@@ -48,7 +60,7 @@ header {
     width: 30%
 }
 
-#right {
+.right {
     background-color: #FAF7F5;
     border: 1px black solid;
     padding: 20px;
@@ -71,7 +83,7 @@ footer {
 	border: 1px black solid;
 	padding: 20px;
 }
-div/section {
+section {
 	background-color: #FFE2B8
 	border: 1px black solid;
 	padding: 20px;
@@ -80,7 +92,10 @@ img {
 	width: 200px;
 	height: auto;
 }
-
+.column3 {
+	float:left;
+	width:33.33%;
+}
 .clearfix:after {
     visibility: hidden;
     display: block;
