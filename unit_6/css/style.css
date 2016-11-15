@@ -7,6 +7,7 @@ body {font-family: 'Karma', serif;
 h1, h2, h3 {  
 	font-family: 'Open Sans', sans-serif;
 	font-style: black;
+	text-transform: uppercase;
 }
 
 h1 {
