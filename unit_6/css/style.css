@@ -31,6 +31,8 @@ header div {
 }
 header img {
 	float:right;
+	width: 325px;
+	height: auto;
 }
  nav {
 	background-color: #F0E7DF;
