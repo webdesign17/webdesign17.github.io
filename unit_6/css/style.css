@@ -96,6 +96,8 @@ img {
 .column3 {
 	float:left;
 	width:33.33%;
+	font-family: 'Open Sans', sans-serif;
+	font-style: black;
 }
 .clearfix:after {
     visibility: hidden;
