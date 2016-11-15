@@ -1,9 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Karma|Open+Sans|Playball');
+  
+
+body {font-family: 'Karma', serif;
+	
+}
+h1, h2, h3 {  
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-style: black;
+	font-size: 60px;
+}
+
+h4 {
+	font-family: 'Playball', cursive;
+	font-size: 40px;
+
+}
+
 header {
 	background-color: #FAF7F5;
 	border: 1px black solid;
 	padding: 20px;
 }
-nav {
+
+ nav {
 	background-color: #F0E7DF;
 	border: 1px black solid;
 	padding: 20px;
