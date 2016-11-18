@@ -100,7 +100,7 @@ img {
 	width:33.33%;
 	font-family: 'Open Sans', sans-serif;
 	font-style: bold;
-	font-size: 18
+	font-size: 18px;
 }
 .clearfix:after {
     visibility: hidden;
