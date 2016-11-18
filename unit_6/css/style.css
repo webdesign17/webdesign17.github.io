@@ -99,7 +99,8 @@ img {
 	float:left;
 	width:33.33%;
 	font-family: 'Open Sans', sans-serif;
-	font-style: black;
+	font-style: bold;
+	font-size: 18
 }
 .clearfix:after {
     visibility: hidden;
