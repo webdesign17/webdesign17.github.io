@@ -98,6 +98,12 @@ img {
 	font-style: bold;
 	font-size: 18px;
 }
+
+.phone {font-family: 'Open Sans', sans-serif;
+	font-style: black;
+	font-size: 30px;
+
+}
 .clearfix:after {
     visibility: hidden;
     display: block;
