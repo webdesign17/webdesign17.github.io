@@ -32,7 +32,7 @@ header div {
 header img {
 	float:right;
 	width: 320px;
-	height: 240px;
+	height: auto;
 }
  nav {
 	background-color: #F0E7DF;
@@ -89,7 +89,7 @@ section {
 }
 img {
 	width: 320px;
-	height: 240px;
+	height: auto;
 }
 .column3 {
 	float:left;
