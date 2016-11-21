@@ -31,8 +31,8 @@ header div {
 }
 header img {
 	float:right;
-	width: 200px;
-	height: auto;
+	width: 320px;
+	height: 240px;
 }
  nav {
 	background-color: #F0E7DF;
@@ -89,7 +89,7 @@ section {
 }
 img {
 	width: 320px;
-	height: auto;
+	height: 240px;
 }
 .column3 {
 	float:left;
