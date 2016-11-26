@@ -97,9 +97,9 @@ section {
 	padding: 20px;
 }
 img {
-	width: 270px;
+	width: 250px;
 	height: auto;
-	float: auto;
+	float: left;
 }
 .column3 {
 	float:left;
