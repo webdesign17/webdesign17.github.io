@@ -99,7 +99,7 @@ section {
 img {
 	width: 270px;
 	height: auto;
-	float: center;
+	float: auto;
 }
 .column3 {
 	float:left;
