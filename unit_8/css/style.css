@@ -143,6 +143,12 @@ img {
   		float: none;
   		width: auto;
 	}
+@media only screen and (max-width: 480px) {
+  img {
+    float: none;
+    width: auto;
+  }	
+
 
 @media only screen and (max-width: 480px) {
   	.column3 {
