@@ -113,11 +113,40 @@ img {
     height: 0;
 }
 
- @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   nav {
     float: none;
+    width: auto;
   }	
    
   nav a {
       margin: 0 1.6em .75em 0;
   }
+@media only screen and (max-width: 480px) {
+  nav {
+    float: none;
+    width: auto;
+  }	
+   
+  nav a {
+      margin: 0 1.6em .75em 0;
+  }
+ 
+@media only screen and (max-width: 480px) {
+  	.left {
+  		float: none;
+  		width: auto;
+	}
+
+	@media only screen and (max-width: 480px) {
+  	.right {
+  		float: none;
+  		width: auto;
+	}
+
+@media only screen and (max-width: 480px) {
+  	.column3 {
+  		float: none;
+  		width: auto;
+	}
+
