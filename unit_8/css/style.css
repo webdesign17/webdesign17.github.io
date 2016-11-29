@@ -30,8 +30,8 @@ header div {
 	float:left;
 }
 header img {
-	float:right;
-	width: 250px;
+	float:none;
+	width: 100%;
 	height: auto;
 }
  nav {
