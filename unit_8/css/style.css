@@ -30,9 +30,9 @@ header div {
 	float:left;
 }
 header img {
-	float:right;
-	width:250px;
-	height:auto;
+	float: right;
+	width: 250px;
+	height: auto;
 }
  nav {
 	background-color: #F0E7DF;
@@ -135,10 +135,7 @@ img {
 header div {
 	float:none;
 }
-header img {
-	float:none;
-}
-   
+  
 
   	.left {
   		float: none;
