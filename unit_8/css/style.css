@@ -132,6 +132,16 @@ img {
        
    }
 
+header div {
+	float:none;
+}
+header img {
+	float:none;
+	width: auto;
+	height: auto;
+}
+   
+
   	.left {
   		float: none;
   		width: auto;
