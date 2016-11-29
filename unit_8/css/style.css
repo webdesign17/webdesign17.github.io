@@ -119,9 +119,6 @@ img {
     width: auto;
   }	
    
-  nav a {
-      margin: 0 1.6em .75em 0;
-  }
 @media only screen and (max-width: 400px) {
   nav {
     float: none;
@@ -132,7 +129,7 @@ img {
   		float: none;
        	width: auto;
        	margin:auto;
-       	text-align:left;
+       
    }
 
   	.left {
