@@ -92,7 +92,7 @@ section {
 	padding: 20px;
 }
 img {
-	width: 325px;
+	width: 100%;
 	height: auto;
 	
 }
@@ -113,7 +113,7 @@ img {
     height: 0;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1280px) {
   nav {
     float: none;
     width: auto;
@@ -122,37 +122,33 @@ img {
   nav a {
       margin: 0 1.6em .75em 0;
   }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 400px) {
   nav {
     float: none;
     width: auto;
   }	
    
   nav a {
-      margin: 0 1.6em .75em 0;
-  }
- 
-@media only screen and (max-width: 480px) {
+  		float: none;
+       	width: auto;
+       	margin:auto;
+   }
+
   	.left {
   		float: none;
   		width: auto;
 	}
 
-	@media only screen and (max-width: 480px) {
   	.right {
   		float: none;
   		width: auto;
-	}
-@media only screen and (max-width: 480px) {
+	} 
   img {
     float: none;
-    width: auto;
-  }	
-
-
-@media only screen and (max-width: 480px) {
+   
+  }	 
   	.column3 {
   		float: none;
-  		width: auto;
+  		width: 100%;
 	}
 
