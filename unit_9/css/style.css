@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Playball|Roboto');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {font-family: 'Roboto', sans-serif;
+	
+}
+h1, h2, h3 {  
+	font-family: 'Open Sans', sans-serif;
+	font-style: black;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-style: black;
+	font-size: 60px;
+}
+
+h4 {
+	font-family: 'Playball', cursive;
+	font-size: 30px;
+
+}
+
+header {
+	background-color: #FAF7F5;
+	border: 1px black solid;
+	padding: 20px;
+}
+header div {
+	float:left;
+}
+header img {
+	float: right;
+	width: 250px;
+	height: auto;
+}
+ nav {
+	background-color: #F0E7DF;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav a {
+	color:#222;
+	float:left;
+	padding:1em;
+	text-align:center;
+	text-decoration:none;
+	width:16.66%;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+}
+section {
+    background-color: #F0E7DF;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.left {
+    background-color: #FAF7F5;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%
+}
+
+.right {
+    background-color: #FAF7F5;
+    border: 1px black solid;
+    padding: 20px;
+    float: right;
+    width: 62%
+}
+ 
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px; 
+	
+
+}
+article {
+	background-color:  #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+section {
+	background-color: #FFE2B8
+	border: 1px black solid;
+	padding: 20px;
+}
+img {
+	width: 100%;
+	height: auto;
+	
+}
+.column3 {
+	float:left;
+	width:33.33%;
+	font-family: 'Open Sans', sans-serif;
+	font-style: bold;
+	font-size: 18px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 1290px) {
+  nav {
+    float: none;
+    width: auto;
+  }	
+   
+@media only screen and (max-width: 400px) {
+  nav {
+    float: none;
+    width: auto;
+  }	
+   
+  nav a {
+  		float: none;
+       	width: auto;
+       	margin:auto;
+       
+   }
+
+header div {
+	float:none;
+	
+}
+ 
+  	.left {
+  		float: none;
+  		width: auto;
+	}
+
+  	.right {
+  		float: none;
+  		width: auto;
+	} 
+  img {
+    float: none;
+   
+  }	 
+  	.column3 {
+  		float: none;
+  		width: 100%;
+	}
+
