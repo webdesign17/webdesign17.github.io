@@ -20,7 +20,12 @@ h4 {
 	font-size: 30px;
 
 }
-
+ul, ol {
+	padding-left:1.25em;
+}
+li {
+	margin-bottom:1em;
+}
 header {
 	background-color: #FAF7F5;
 	border: 1px black solid;
@@ -58,7 +63,6 @@ section {
 .left {
     background-color: #FAF7F5;
     border: 1px black solid;
-    padding: 20px;
     float: left;
     width: 30%
 }
@@ -66,7 +70,6 @@ section {
 .right {
     background-color: #FAF7F5;
     border: 1px black solid;
-    padding: 20px;
     float: right;
     width: 62%
 }
@@ -75,14 +78,14 @@ section {
 aside {
 	background-color: #FFC675;
 	border: 1px black solid;
-	padding: 20px; 
+	padding: 2em; 
 	
 
 }
 article {
 	background-color:  #E89C6C;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 2em;
 
 }
 
@@ -103,7 +106,16 @@ img {
 	font-style: bold;
 	font-size: 18px;
 }
-
+.top {
+	background:black;
+	border-radius:50%;
+	color:#fff;
+	position:fixed;
+	bottom:.5em;
+	right:.5em;
+	padding: 1em 1.25em;
+	text-decoration:none;
+}
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -118,12 +130,24 @@ img {
     float: none;
     width: auto;
   }	
+}
+
+@media only screen and (max-width: 920px) {
+	header {
+		font-size:.8em;
+	}
+	nav a {
+		width: 100%;
+	}
+	.left, .right {
+		float:none;
+		margin:0 auto;
+		width:80%;
+	}
+}
    
 @media only screen and (max-width: 400px) {
-  nav {
-    float: none;
-    width: auto;
-  }	
+  
    
   nav a {
   		float: none;
