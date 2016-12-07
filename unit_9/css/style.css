@@ -146,7 +146,6 @@ img {
 	}
 }
  
-
 @media only screen and (max-width: 400px) {
   
    
@@ -155,7 +154,7 @@ img {
        	width: 100%;
        
    }
-}
+
 header div {
 	float:none;
 	
@@ -179,3 +178,4 @@ header div {
   		width: 100%;
 	}
 
+}
