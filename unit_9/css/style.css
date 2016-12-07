@@ -12,12 +12,12 @@ h1, h2, h3 {
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-style: black;
-	font-size: 60px;
+	font-size: 8em;
 }
 
 h4 {
 	font-family: 'Playball', cursive;
-	font-size: 30px;
+	font-size: 2em;
 
 }
 ul, ol {
