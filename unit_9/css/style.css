@@ -145,17 +145,23 @@ img {
 		width:80%;
 	}
 }
-   
+@media only screen and (max-width: 740px) {
+	nav a {
+  		 
+       	width: 100%;
+       
+   }
+}
+
 @media only screen and (max-width: 400px) {
   
    
   nav a {
   		 
        	width: 100%;
-      
        
    }
-
+}
 header div {
 	float:none;
 	
