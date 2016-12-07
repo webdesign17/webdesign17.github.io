@@ -148,9 +148,14 @@ img {
 @media only screen and (max-width: 740px) {
 	nav a {
   		 
-       	width: 100%;
-       
+       	width: 100%; 
    }
+
+   .left, .right {
+		float:none;
+		margin:0 auto;
+		width:80%;
+	}
 }
 
 @media only screen and (max-width: 400px) {
