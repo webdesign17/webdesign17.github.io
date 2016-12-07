@@ -149,7 +149,7 @@ img {
 	nav a {
 		width: 100%;
 	}
-	 	 
+
   	.column3 {
   		float: none;
   		width: 100%;
@@ -185,6 +185,7 @@ header div {
   	.column3 {
   		float: none;
   		width: 100%;
+  		margin-bottom:1em;
 	}
 
 }
