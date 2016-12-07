@@ -53,6 +53,7 @@ nav a {
 	width:16.66%;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
+
 }
 section {
     background-color: #F0E7DF;
@@ -125,6 +126,9 @@ img {
     height: 0;
 }
 
+a.hover {
+	background-color: #F78605;
+}
 @media only screen and (max-width: 1290px) {
   nav {
     float: none;
