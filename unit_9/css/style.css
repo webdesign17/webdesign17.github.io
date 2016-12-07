@@ -55,6 +55,10 @@ nav a {
 	font-family: 'Open Sans', sans-serif;
 
 }
+nav a.hover{
+	background-color: #F78605;
+}
+
 section {
     background-color: #F0E7DF;
     border: 1px black solid;
