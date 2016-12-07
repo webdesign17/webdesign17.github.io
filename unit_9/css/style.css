@@ -149,6 +149,11 @@ img {
 	nav a {
 		width: 100%;
 	}
+	 	 
+  	.column3 {
+  		float: none;
+  		width: 100%;
+	}
  }
 @media only screen and (max-width: 400px) {
   
