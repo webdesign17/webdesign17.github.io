@@ -12,7 +12,7 @@ h1, h2, h3 {
 h1 {
 	font-family: 'Open Sans', sans-serif;
 	font-style: black;
-	font-size: 60px;
+	font-size: 3.75em;
 }
 
 h4 {
@@ -95,7 +95,7 @@ article {
 }
 
 section {
-	background-color: #FFE2B8
+	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding: 20px;
 }
